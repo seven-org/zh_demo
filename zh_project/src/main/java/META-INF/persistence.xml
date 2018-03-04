@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="zh_project">
+		<class>code.seven.zh_project.domain.ActivityType</class>
+		<class>code.seven.zh_project.domain.BasePinyin</class>
+		<class>code.seven.zh_project.domain.Customer</class>
+		<class>code.seven.zh_project.domain.CustomerFeedback</class>
+		<class>code.seven.zh_project.domain.CustomerLogin</class>
+		<class>code.seven.zh_project.domain.CustomerMessage</class>
+		<class>code.seven.zh_project.domain.CustomerPush</class>
+		<class>code.seven.zh_project.domain.CustomerRecord</class>
+		<class>code.seven.zh_project.domain.CustomerSearch</class>
+		<class>code.seven.zh_project.domain.ErpDirectory</class>
+		<class>code.seven.zh_project.domain.ErpPlatformUser</class>
+		<class>code.seven.zh_project.domain.ImgCarousel</class>
+		<class>code.seven.zh_project.domain.ImgUrl</class>
+		<class>code.seven.zh_project.domain.Manufactor</class>
+		<class>code.seven.zh_project.domain.ManufactorType</class>
+		<class>code.seven.zh_project.domain.PlasticImg</class>
+		<class>code.seven.zh_project.domain.PlasticOrder</class>
+		<class>code.seven.zh_project.domain.PlasticReplica</class>
+		<class>code.seven.zh_project.domain.PlasticTemplate</class>
+		<class>code.seven.zh_project.domain.ProductActivity</class>
+		<class>code.seven.zh_project.domain.ProductActivityCustomer</class>
+		<class>code.seven.zh_project.domain.ProductDetail</class>
+		<class>code.seven.zh_project.domain.ProductOrder</class>
+		<class>code.seven.zh_project.domain.ProductOrderPayInfo</class>
+		<class>code.seven.zh_project.domain.ProductPushOrder</class>
+		<class>code.seven.zh_project.domain.ProductSery</class>
+		<class>code.seven.zh_project.domain.ProductType</class>
+		<class>code.seven.zh_project.domain.ProductTypeMenu</class>
+		<class>code.seven.zh_project.domain.RedPacket</class>
+		<class>code.seven.zh_project.domain.RedPacketCustomer</class>
+		<class>code.seven.zh_project.domain.Region</class>
+	</persistence-unit>
+</persistence>
